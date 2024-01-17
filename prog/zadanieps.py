@@ -1,9 +1,7 @@
-def print_unique_words(sentence):
-    """
-    Функция для вывода слов, встречающихся в предложении по одному разу.
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 
-    :param sentence: Входное предложение.
-    """
+def print_unique_words(sentence):
     words = sentence.split()
     word_count = {}
 
